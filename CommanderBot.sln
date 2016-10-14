@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommanderBot", "CommanderBot\CommanderBot.csproj", "{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LUISClientLibrary", "Cognitive-LUIS-Windows\ClientLibrary\LUISClientLibrary.csproj", "{43DAA109-EF1B-4C29-B231-9CFC88142446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterClient", "TwitterClient\TwitterClient.csproj", "{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommanderHelper", "CommanderHelper\CommanderHelper.csproj", "{C87BF895-CD9F-494F-BDC1-606C6A77E825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|ARM.Build.0 = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|x64.Build.0 = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|ARM.Build.0 = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|x64.Build.0 = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|x86.Build.0 = Release|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Debug|ARM.Build.0 = Debug|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Debug|x64.Build.0 = Debug|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Debug|x86.Build.0 = Debug|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Release|ARM.ActiveCfg = Release|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Release|ARM.Build.0 = Release|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Release|x64.ActiveCfg = Release|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Release|x64.Build.0 = Release|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Release|x86.ActiveCfg = Release|Any CPU
+		{43DAA109-EF1B-4C29-B231-9CFC88142446}.Release|x86.Build.0 = Release|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Debug|x64.Build.0 = Debug|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Release|ARM.Build.0 = Release|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Release|x64.ActiveCfg = Release|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Release|x64.Build.0 = Release|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5DF2D7A-2AF7-4F2E-A3AA-506CBAC88660}.Release|x86.Build.0 = Release|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Debug|x64.Build.0 = Debug|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Debug|x86.Build.0 = Debug|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Release|ARM.Build.0 = Release|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Release|x64.ActiveCfg = Release|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Release|x64.Build.0 = Release|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Release|x86.ActiveCfg = Release|Any CPU
+		{C87BF895-CD9F-494F-BDC1-606C6A77E825}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://levifuller.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Cognitive-LUIS-Windows\\ClientLibrary\\LUISClientLibrary.csproj
+		SccProjectName1 = Cognitive-LUIS-Windows/ClientLibrary
+		SccLocalPath1 = Cognitive-LUIS-Windows\\ClientLibrary
+		SccProjectUniqueName2 = CommanderBot\\CommanderBot.csproj
+		SccProjectName2 = CommanderBot
+		SccLocalPath2 = CommanderBot
+		SccProjectUniqueName3 = CommanderHelper\\CommanderHelper.csproj
+		SccProjectName3 = CommanderHelper
+		SccLocalPath3 = CommanderHelper
+		SccProjectUniqueName4 = TwitterClient\\TwitterClient.csproj
+		SccProjectName4 = TwitterClient
+		SccLocalPath4 = TwitterClient
+	EndGlobalSection
+EndGlobal
